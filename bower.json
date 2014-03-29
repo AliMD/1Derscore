@@ -1,0 +1,30 @@
+{
+  "name": "1derscore",
+  "main": "1derscore.js",
+  "version": "0.1.1",
+  "homepage": "http://ali.md/1derscore",
+  "authors": [
+    "Ali Mihandoost"
+  ],
+  "description": "A whole mess of useful functional programming helpers without extending any built-in object for The One Developers <1Devs/>",
+  "keywords": [
+    "1derscore",
+    "1derscorejs",
+    "underscore",
+    "underscorejs",
+    "js",
+    "javascript",
+    "1devs",
+    "alimd",
+    "ali",
+    "mihandoost"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
