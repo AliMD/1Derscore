@@ -1,5 +1,5 @@
 /* 
- * 1Derscore.js v0.1.1
+ * 1Derscore.js v0.1.2
  * A whole mess of useful functional programming helpers without extending any built-in object for The One Developers <1Devs/>
  *
  * http://ali.md/1derscore
@@ -95,7 +95,7 @@
    * Get selected in docuemnt
    * @return {object} selected object or text in ie
    */
-  var getSelection = (function(gs, s){
+  var getSelectionItem = (function(gs, s){
     return root[gs] ||
     doc[gs] ||
     function(){
@@ -103,12 +103,16 @@
     };
   })('getSelection', 'selection');
 
+  _.getSelection = function () {
+    return getSelectionItem();
+  };
+
   /**
    * Get selected text in docuemnt
    * @return {string} selected text
    */
   _.getSelectionText = function () {
-    return getSelection().toString();
+    return _.getSelection().toString();
   };
 
 })(window, document);
