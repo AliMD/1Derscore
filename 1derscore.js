@@ -1,5 +1,5 @@
 /* 
- * 1Derscore.js v0.1.2
+ * 1Derscore.js v0.1.3
  * A whole mess of useful functional programming helpers without extending any built-in object for The One Developers <1Devs/>
  *
  * http://ali.md/1derscore
