@@ -115,4 +115,13 @@
     return _.getSelection().toString();
   };
 
+  /**
+   * Simple way to clone an object
+   * @param  {Object} obj Target object
+   * @return {Object} New object instance
+   */
+  _.cloneObj = function (obj) {
+    return JSON.parse(JSON.stringify(obj));
+  };
+
 })(window, document);
